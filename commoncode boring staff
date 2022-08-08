@@ -1,0 +1,16 @@
+grid = [['.','.','.','.','.','.'],
+        ['.','O','O','.','.','.'],
+        ['O','O','O','O','.','.'],
+        ['O','O','O','O','O','.'],
+        ['O','O','O','O','O','O','O'],
+        ['O','O','O','O','O','.']
+        ['O','O','O','O','.','.'],
+        ['.','O','O','.','.','.'],
+        ['.','.','.','.','.','.'],
+ 
+#for loop to read from list of 6 element
+for i in range(6):
+  #another nested for loop read from row
+  for row in grid:
+    print(row[i],end=' ')
+  print()
